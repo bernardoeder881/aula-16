@@ -1,0 +1,8 @@
+codigo_cliente,nome,sobrenome,endereco,bairro,cidade,telefone,CPF,email
+1,Mariana,Moreira,"Rua dos Lirios, 47",Centro,Curitiba,(44) 91717-9425,628.380.877-57,mariana.moreira@gmail.com
+2,Lamuel,Carvalho,"Avenida das Flores, 1020",Jardins,Curitiba,(44) 97628-7334,593.595.365-56,lamuel.carvalho@gmail.com
+3,Sonia,Souza,"Rua dos Lirios, 47",Vila Rica,Sao Paulo,(11) 96826-6747,472.653.339-96,sonia.souza@yahoo.com
+4,Patricia,Silva,"Rua do Comercio, 345",Ponte Nova,Sao Paulo,(11) 98008-1720,627.732.329-36,patricia.silva@outlook.com
+5,Pedro,Silva,"Rua das Flores, 150",Jardins,Rio de Janeiro,(21) 96316-9005,851.822.170-61,pedro.silva@outlook.com
+6,Carlos,Azevedo,"Avenida das Americas, 1020",Barra da Tijuca,Rio de Janeiro,(21) 97540-6150,261.466.459-45,carlos.azevedo@yahoo.com
+7,Ana,Miranda,"Avenida Brasil, 1345",Bonsucesso,Rio de Janeiro,(21) 96492-3250,971.346.901-22,ana.miranda@gmail.com

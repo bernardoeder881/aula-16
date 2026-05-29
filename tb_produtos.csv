@@ -1,0 +1,12 @@
+codigo_produto,produto,categoria
+1,Notebook,Eletronicos
+2,Smartphone,Eletronicos
+3,Microondas,Eletrodomesticos
+4,Liquidificador,Eletrodomesticos
+5,Sofa,Moveis
+6,Cadeira,Moveis
+7,Tenis,Calcados
+8,Camisa,Vestuario
+9,Televisao,Eletronicos
+10,Geladeira,Eletrodomesticos
+11,Fogao,Eletrodomesticos
