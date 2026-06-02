@@ -1,12 +1,18 @@
+
+#pip install 
 from sqlalchemy import create_engine
 import pandas as pd
+from dotenv import load_dotenv #necessário para trabalhar com .env
+import os 
 
 # Conectando ao BD
+load_dotenv()
+host = os.getenv ('DB_HOST')
+user = os.getenv ('DB_USER')
+password = os.getenv ('DB_PASSWORD')
+database = os.getenv ('DB_DATABASE')
 
-host = 'localhost'
-user = 'root'
-password = ''
-database = 'bd_aula06'
+#Usuário e senha nao devem ser carregados expostos no GITHUB
 
 engine = create_engine(
      f'mysql+pymysql://{user}:{password}@{host}/{database}'
@@ -18,7 +24,6 @@ try:
     df_pedidos =pd.read_sql('tb_pedidos' , engine)
     df_produtos =pd.read_sql('tb_produtos' , engine)
   
-
 except Exception as e:
     print( f'Falha na conexão {e}')
 
